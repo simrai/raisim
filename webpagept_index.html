@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Site</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #727D73;
+        }
+
+        header {
+            background-color: #AAB99A;
+            padding: 50px;
+            text-align: center;
+            font-size: 35px;
+            color: black;
+            font-weight: bold;
+        }
+footer {
+  background-color: #AAB99A;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+        .nav {
+            overflow: hidden;
+            background-color: #D0DDD0;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .nav a {
+            display: inline-block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: #F0F0D7;
+            margin: 5px;
+            border-radius: 5px;
+        }
+
+        .nav a:hover {
+            background-color: green;
+            color: white;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .section {
+            background-color: #B2C9AD;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        .hidden {
+    display: none;
+    font-size: 12px;
+}
+
+        button {
+            background-color: #A7B49E;
+            color: black;
+            border: none;
+            padding: 15px 25px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #727D73;
+        }
+
+        footer {
+            background-color: #AAB99A;
+            padding: 20px;
+            color: black;
+            text-align: center;
+            margin-top: 100px;
+        }
+    </style>
+    <script>
+        function toggleInfo(sectionId) {
+            const section = document.getElementById(sectionId);
+            section.style.display = section.style.display === "none" ? "block" : "none";
+        }
+    </script>
+</head>
+<body>
+
+    <header>WELCOME ICT GRADE 10!</header>
+    <div class="nav">
+        <a href="input devices.html">Input Devices</a>
+        <a href="output devices.html">Output Devices</a>
+        <a href="about html.html">About HTML</a>
+        <a href="resources.html">Visuals</a>
+        <a href="pros and cons.html">Awareness</a>
+<a href="spt.html">Schedule</a>
+        <a href="about us.html">About Us</a>
+    </div>
+
+    <div class="container">
+        <div class="section">
+<p style="color: brown;"><b> A SIMPLE INTRODUCTION ABOUT ICT </b></p>
+
+<h2>What is ICT?</h2>
+            <button onclick="toggleInfo('ict')">Know Me</button>
+        <p id="ict" class="hidden">
+<br><img src="image 1.jpg" alt="Description of Image" width="300">
+<br><b>Information and Communications Technology (ICT)</b> - refers to tools and systems that help people share, process, and store information.
+<br>
+<br><b>ICT</b> also covers software like apps and tools for communication, such as email, social media, and video calls. 
+<br>
+<br><b>ICT</b> is important because it makes learning easier, improves business operations, supports healthcare through telemedicine, and helps people stay connected worldwide.
+    </section>
+
+    <section>
+        <section>
+        <h2>Benefits of ICT</h2>
+        <button onclick="toggleInfo('benefits')">Know Me</button>
+        <ul id="benefits" class="hidden">
+<br><img src="image 2.jpg" alt="Description of Image" width="300">
+<br>
+<br><strong>Improved Communication</strong>
+<br> <b>ICT</b> makes it easy to connect with others through messaging, social media, video calls, and emails.
+
+<strong>Enhanced Learning</strong> 
+<br>Students can access online resources like e-books, tutorials, and research materials anytime.
+
+<strong>Convenience</strong>
+<br> Tasks like online shopping, banking, and paying bills can be done quickly from home.
+
+
+<br><strong>Access to Information
+</strong> 
+<br><b>ICT</b> provides instant access to news, educational materials, and entertainment through the internet.
+
+<strong>Time-Saving</strong>
+<br><b>ICT</b> enables faster research and completing assignments using online tools.
+
+<br><strong>Increased Productivity</strong>
+<br> Tools like apps and software help manage time, organize tasks, and increase efficiency in daily activities.
+
+
+<br><strong>Global Exposure</strong>
+<br> Students can learn about different cultures and ideas through online communities and global educational resources.
+        </ul>
+    </section>
+
+    <section>
+        <h2>Always Remember!</h2>
+        <button onclick="toggleInfo('examples')">Know Me</button>
+        <ul id="examples" class="hidden">
+<br><img src="image 3.jpg" alt="Description of Image" width="300">
+<br>In <b>ICT (Information and Communication Technology)</b>, there are some important things students should always remember. 
+<br>
+<br>First, <b>cybersecurity threats</b> are a <i>big concern</i>. Hackers and harmful software can steal personal information. To stay safe, 
+<br>use strong password
+<br>keep your software updated
+<br>avoid clicking on suspicious links or emails
+<br>
+<br>
+Another thing to keep in mind is the <i>overuse risks of technology</i>. Spending too much time in front of a screen can cause <b>eye strain</b>, <b>headaches</b>, and <b>affect your sleep</b>. Its important to <strong>take breaks</strong>, <strong>rest your eyes</strong>, and <strong>balance screen time with other activities</strong>, like playing outside or reading.
+<br>
+<br>
+Finally,
+<br> Remember privacy concerns when using the internet. 
+<br>Be careful about what you share online. Personal information, like your address or phone number, can be used in ways you might not expect. 
+<br>Always check privacy settings and think before posting too much on social media.
+
+
+        </ul>
+    </section>
+
+</div>
+<br><img src="gif 3.gif" width="100%"/>
+    <footer>© 2025 Simbajon, Tejares, Lizardo, & Astorga. All Rights Reserved.</footer>
+
+</body>
+</html>
